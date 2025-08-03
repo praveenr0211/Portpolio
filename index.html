@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2abccf4c54.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav class="navbar ml-auto">
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>FULL STACK DEVELOPER</p>
+            <h1>Hi I'm <span>Praveen</span><br> </h1>
+
+        </div>
+    </div>
+         
+</div>
+
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="basis col-lg-6 col-12">
+                <img src="images/user.png" class="imagee">
+            </div>
+            <div class="col-12 col-lg-6 matter">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate and driven individual with a keen interest in web development and design. I enjoy turning ideas into real, functional, and visually appealing websites. With a strong foundation in HTML, CSS, and Bootstrap, I'm constantly learning and exploring new technologies to enhance my skills and deliver impactful digital experiences.</p>
+            <div class="tab-titles d-flex flex-row">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Educations')">Educations</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul class="bullets">
+                    <li><span> App Development</span><br> Web App Development<br></li>
+                    <li><span> Web Development</span><br>Creating Web Applications<br></li>
+                </ul>
+
+            </div>
+            <div class="tab-contents"  id="Experience">
+                <ul class="bullets">
+                    <li><span> Hackathon</span><br> Full stack app development -GMRIT<br></li>
+                    <li><span> Internship</span><br>Google company<br></li>
+                </ul>
+
+            </div>
+            <div class="tab-contents"  id="Educations">
+                <ul class="bullets">
+                    <li><span>Computer Science and Engineering 2023-2027</span><br> MVGR College of Engineering-Vizianagaram<br></li>
+                    <li><span>Intermediate 2021-2023</span><br>Narayana Junior College-Visakhapatnam<br></li>
+                    <li><span>Schooling 2013-2023</span><br>Mother Teresa school-Cheepurupalli<br></li>
+                </ul>
+
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Designing</h2> 
+                <p>Web Development is the process of building and maintaining websites and web applications. It involves coding, designing, and structuring content to ensure a seamless user experience across different devices. </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2> 
+                <p>Web Development is the process of building and maintaining websites and web applications. It involves coding, designing, and structuring content to ensure a seamless user experience across different devices. </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Development</h2> 
+                <p>Web Development is the process of building and maintaining websites and web applications. It involves coding, designing, and structuring content to ensure a seamless user experience across different devices.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work ">
+                <img src="images/work-1.png">
+                <div class="layer d-flex flex-column justify-content-center">
+                    <h3>Social Media App</h3>
+                    <p>this is an example line...</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer d-flex flex-column justify-content-center">
+                    <h3>Music App</h3>
+                    <p>this is an example line...</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer d-flex flex-column justify-content-center">
+                    <h3>Online Shopping App</h3>
+                    <p>this is an example line...</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+
+        </div>
+            <a href="#"class="btn">See More</a>
+    </div>
+
+</div>
+
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left col-lg-6 col-12">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>revallapraveenkumar@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8688427234</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-rigth  col-12 col-lg-6">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="copy-right">
+        <p>Copy right &copy; 2025 Praveen <i class="fa-solid fa-computer"></i>. All rights reserved.</p>
+
+    </div>
+
+</div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwE_MaOeG2fpfZmmd9k57ZGy_YYg5S30ZpHTjbcVgV8qWITadJO_iI58V1UtbMO1qJ24A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
+
